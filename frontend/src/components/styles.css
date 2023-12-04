@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+  background-color: #292a2c;
+  padding: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  color: whitesmoke;
+  font-weight: lighter;
+}
+
+.date-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.date-label {
+  padding: 2px 20px;
+}
+
+.date-picker {
+  background-color: white;
+  padding: 3px;
+  border-radius: 5px;
+  border: none;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.custom-dropdown {
+  width: 40%;
+  padding: 10px;
+  color: black;
+}
+
+.drop {
+  border: none;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  background-color: #6fd373;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  background-color: #306b33;
+  color: white;
+}
+
+.graph {
+  width: 100%;
+}

@@ -1,0 +1,7 @@
+flask-cors
+flask
+flask-apscheduler
+pandas
+pymongo
+schedule
+waitress

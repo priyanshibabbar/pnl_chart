@@ -1,0 +1,19 @@
+# Ignore node_modules directory in frontend and backend
+frontend/node_modules/
+backend/__pycache__/
+
+# Ignore build artifacts in frontend and backend
+frontend/build/
+
+# Ignore environment-specific files in frontend
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Ignore logs
+*.log
+
+# Ignore macOS system files
+.DS_Store
